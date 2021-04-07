@@ -8,6 +8,7 @@
   - connect  
   - class/function   
   - parameter  
+  - Postpone decision -> lazy val
 ## CDE -> parameter-config   
 ## design-flow   
 ## framework   
