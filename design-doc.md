@@ -1,11 +1,15 @@
 # design imp doc
 
 ## clock/reset domain   
-## register resource   
+## power domain   
 ## interface    
 ## parameter   
 ## architecture   
   - data path     
   - control path    
   - instance hire   
-## register description
+## programmers' model   
+  - register description   
+  - register mapping  
+## resource   
+  - register resource   
