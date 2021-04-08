@@ -5,5 +5,7 @@
 ## interface    
 ## parameter   
 ## architecture   
+  - data path     
+  - control path    
+  - instance hire   
 ## register description
-
