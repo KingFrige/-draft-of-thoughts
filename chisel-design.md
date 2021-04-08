@@ -1,14 +1,8 @@
 # chisel   
 
 > chisel - sv - gem5   
+> generator vs simulator
 
-## generator    
-  - basic component: ram/rom/buffer/fifo   
-  - instance  
-  - connect  
-  - class/function   
-  - parameter  
-  - Postpone decision -> lazy val
 ## CDE -> parameter-config   
 ## design-flow   
 ## framework   
@@ -32,6 +26,13 @@
   - Synchronization of model and design   
   - PPA quantify   
   - Fast convergence : run time / design time / convert to RTL    
+## generator / simulator   
+  - parameter   
+  - Postpone decision -> lazy val
+  - basic component: ram/rom/buffer/fifo   
+  - instance  
+  - connect  
+  - class/function   
  
 ## defect 
   * chisel
