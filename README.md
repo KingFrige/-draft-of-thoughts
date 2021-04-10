@@ -20,3 +20,5 @@ README
 [think-cpu](src/think-cpu.md)   
 
 [write-a-tool](src/write-a-tool.md)   
+
+[o3-cpu](src/o3-cpu.md)
