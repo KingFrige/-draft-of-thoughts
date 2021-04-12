@@ -9,6 +9,11 @@
 - decode   
 - rename   
 - issue   
+  * slot resource    
+  * find vacated slot    
+  * update uop status  
+  * issue uop    
+  * wakeup logic    
 - rob  
 - exu   
   * exu type : alu/bru/lsu...      
