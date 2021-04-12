@@ -11,8 +11,8 @@
 - issue   
 - rob  
 - exu   
-  * exu type    
-  * exu number    
+  * exu type : alu/bru/lsu...      
+  * exu number ? Is it reasonable ?    
   * insn issue & scheduling  
   * register file write/read   
   * commit/writeback issue
@@ -20,6 +20,13 @@
   - LAQ   
   - SAQ   
   - SDQ   
-- commit   
 - registerfile   
+  * write/read arbiter   
+  * bank number  
 - performance counter   
+- interrupt    
+- exception    
+- debug/trace   
+  * breakpoint/trigger      
+  * step   
+  * trace  
