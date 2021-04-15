@@ -8,16 +8,34 @@
 - branch prediction  
 - decode   
 - rename   
+  * PRF design    
+  * data-in-ROB design   
+  * the rename map table:map-table, freelist, busy table    
 - issue   
   * slot resource    
   * find vacated slot    
   * update uop status  
   * issue uop    
   * wakeup logic    
-- rob  
+- rob   
+  * oranization     
+  * ROB state   
+  * exception state   
+  * pc storage   
+  * the commit stage   
+  * exceptions and flushed  
+  * parameterization   
+  * causes   
+- registerfile   
+  * write/read arbiter   
+  * bank number   
+  * Dynamic read port scheduling    
+  * bypass network   
 - exu   
   * exu type : alu/bru/lsu...      
   * exu number ? Is it reasonable ?    
+  * exu pipeline 
+  * function unit: pipeline ? iterative ?
   * insn issue & scheduling  
   * register file write/read   
   * commit/writeback issue
@@ -25,9 +43,6 @@
   - LAQ   
   - SAQ   
   - SDQ   
-- registerfile   
-  * write/read arbiter   
-  * bank number  
 - performance counter   
 - interrupt    
 - exception    
