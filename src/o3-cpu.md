@@ -11,6 +11,7 @@
   * PRF design    
   * data-in-ROB design   
   * the rename map table:map-table, freelist, busy table    
+  * dependency: RAR, RAW, WAW, WAR   
 - issue   
   * slot resource    
   * find vacated slot    
@@ -40,9 +41,10 @@
   * register file write/read   
   * commit/writeback issue
 - lsu   
-  - LAQ   
-  - SAQ   
-  - SDQ   
+  * LAQ   
+  * SAQ   
+  * SDQ   
+  * dependency: RAR, RAW, WAW, WAR   
 - performance counter   
 - interrupt    
 - exception    
