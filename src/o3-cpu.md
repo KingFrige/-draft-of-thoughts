@@ -1,11 +1,18 @@
 # o3 cpu   
 
+无阻塞，分支预测，投机执行，fifo解耦合单元    
+
 - cache   
   * icache   
   * dcache    
   * cache configure   
-- virtual memory   
-- branch prediction  
+  * MSHR  
+- pwt  
+- tlb  
+- inst fetch   
+  * branch prediction    
+  * exception   
+  * inst buffer   
 - decode   
 - rename   
   * PRF design    
@@ -45,10 +52,11 @@
   * SAQ   
   * SDQ   
   * dependency: RAR, RAW, WAW, WAR   
+  * exception   
 - performance counter   
 - interrupt    
 - exception    
 - debug/trace   
   * breakpoint/trigger      
   * step   
-  * trace  
+  * trace   
