@@ -1,15 +1,26 @@
 # o3 cpu   
 
-无阻塞，分支预测，投机执行，fifo解耦合单元    
+如何做到解耦合，无阻塞？  
+  * pipline   
+  * 分支预测   
+  * 投机执行    
+  * fifo/queue   
+  * NBDcache   
+  * NBDTLB   
+  * multi exu     
+  * multi issue   
 
 - cache   
   * icache   
   * dcache    
   * cache configure   
-  * MSHR  
+  * MSHR   
+  * NBDcache   
 - pwt  
-- tlb  
-- inst fetch   
+- tlb    
+  * ITLB   
+  * NBDTLB    
+- inst fetch    
   * branch prediction    
   * exception   
   * inst buffer   
@@ -22,7 +33,7 @@
 - issue   
   * slot resource    
   * find vacated slot    
-  * update uop status  
+  * update uop status    
   * issue uop    
   * wakeup logic    
 - rob   
@@ -31,7 +42,7 @@
   * exception state   
   * pc storage   
   * the commit stage   
-  * exceptions and flushed  
+  * exceptions and flushed    
   * parameterization   
   * causes   
 - registerfile   
@@ -42,11 +53,11 @@
 - exu   
   * exu type : alu/bru/lsu...      
   * exu number ? Is it reasonable ?    
-  * exu pipeline 
-  * function unit: pipeline ? iterative ?
-  * insn issue & scheduling  
+  * exu pipeline    
+  * function unit: pipeline ? iterative ?   
+  * insn issue & scheduling    
   * register file write/read   
-  * commit/writeback issue
+  * commit/writeback issue   
 - lsu   
   * LAQ   
   * SAQ   
@@ -60,3 +71,6 @@
   * breakpoint/trigger      
   * step   
   * trace   
+
+
+

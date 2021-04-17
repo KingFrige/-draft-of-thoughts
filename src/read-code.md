@@ -9,6 +9,7 @@
   - fifo structure   
   - valid-ready  
   - mem   
+## 梳理程序流程图   
 
 
 
