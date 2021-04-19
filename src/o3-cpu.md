@@ -21,9 +21,18 @@
   * ITLB   
   * NBDTLB    
 - inst fetch    
-  * branch prediction    
   * exception   
   * inst buffer   
+- branch prediction    
+  * the Next-Line Predictor   
+     * NLP predictions   
+     * NLP updates     
+        * BTB updates    
+	* RAS updates     
+  * the backing predictor     
+    * the TAGE predictions    
+    * the GShare predictions    
+    * the two-bit counter tables   
 - decode   
 - rename   
   * PRF design    
@@ -45,6 +54,8 @@
   * exceptions and flushed    
   * parameterization   
   * causes   
+- core status   
+  * csr  
 - registerfile   
   * write/read arbiter   
   * bank number   
@@ -66,7 +77,15 @@
   * exception   
 - performance counter   
 - interrupt    
+  * config interrupt    
+  * debug interrupt   
+  * priority   
 - exception    
+  * frontend exception   
+  * lsu exception   
+  * rob exception   
+  * config exception   
+  * priority   
 - debug/trace   
   * breakpoint/trigger      
   * step   
