@@ -20,10 +20,10 @@
 - tlb    
   * ITLB   
   * NBDTLB    
-- inst fetch    
-  * exception   
-  * inst buffer   
+  * page fault?    
 - branch prediction    
+  * type  
+  * branch history size   
   * the Next-Line Predictor   
      * NLP predictions   
      * NLP updates     
@@ -33,6 +33,11 @@
     * the TAGE predictions    
     * the GShare predictions    
     * the two-bit counter tables   
+  * miss resolution    
+  * checkpoint    
+- inst fetch    
+  * exception   
+  * inst buffer   
 - decode   
 - rename   
   * PRF design    
@@ -54,7 +59,7 @@
   * exceptions and flushed    
   * parameterization   
   * causes   
-- core status   
+- Arch state     
   * csr  
 - registerfile   
   * write/read arbiter   
@@ -80,12 +85,16 @@
   * config interrupt    
   * debug interrupt   
   * priority   
+  * check  
+  * resolution    
 - exception    
-  * frontend exception   
-  * lsu exception   
-  * rob exception   
   * config exception   
   * priority   
+  * generate & check
+     * frontend exception   
+     * lsu exception   
+     * rob exception   
+  * resolution    
 - debug/trace   
   * breakpoint/trigger      
   * step   
