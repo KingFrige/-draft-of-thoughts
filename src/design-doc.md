@@ -18,6 +18,7 @@
 ## programmers' model   
   - register description   
   - register mapping  
+  - flow chart  
 
 ## resource   
   - register resource   
