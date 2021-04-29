@@ -1,14 +1,22 @@
 # o3 cpu   
 
-如何做到解耦合，无阻塞？  
+## 如何做到解耦合，无阻塞？  
   * pipline   
   * 分支预测   
-  * 投机执行    
+  * 投机执行, 分支数量       
+  * pc投机错误恢复机制   
   * fifo/queue   
   * NBDcache   
   * NBDTLB   
   * multi exu     
   * multi issue   
+
+## 参数如何确定？   
+
+## 性能如何评估？   
+
+## 如何迭代改进？    
+
 
 - cache   
   * icache   
@@ -99,6 +107,5 @@
   * breakpoint/trigger      
   * step   
   * trace   
-
 
 
