@@ -4,14 +4,20 @@
 
 ### pipeline
 
-- 独立VectorUnit，与superscalar的EXU分离     
+- 独立VectorUnit, 共用LSU
   * 简化rob  
+  * 独立EXU   
+  * tlb/ptw 与标量单元统一   
+
+- 独立VectorUnit & LSU   
+  * 独立EXU   
+  * 独立LSU   
+  * tlb/ptw 与标量单元分离   
+
+- 融合的vector与scalar单元，拆解vector到superscalar的pipeline    
+  * tlb/ptw 与标量单元统一   
 
 - register bank   
-
-- 独立的VectorUnit & LSU
-
-- 独立的VectorPipe, 与scalar合并的LSU
 
 
 ### vconfig
