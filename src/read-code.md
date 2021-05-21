@@ -3,6 +3,9 @@
 ### 纵向：继承关系    
 ### 横向：数据流与控制流 -- 连接关系   
 ### interface   
+  - input  
+  - output   
+  - function  
 ### FSM    
 ### 关键数据结构    
   - register   

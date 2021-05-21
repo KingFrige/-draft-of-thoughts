@@ -8,12 +8,18 @@
   - port
   - parameter   
 
+## interactive 
+  - interface
+  - module
+  - internal
+
 ## architecture   
+  - class inheritance    
   - data path     
   - control path    
   - instance hire   
   - ULM description     
-  - class inheritance    
+  - flow chart  
   - the keys waves   
 
 ## programmers' model   
