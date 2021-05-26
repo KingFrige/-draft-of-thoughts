@@ -10,6 +10,7 @@
   * NBDTLB   
   * multi exu     
   * multi issue   
+  * wakeup机制   
 
 ## 参数如何确定？   
 
@@ -53,7 +54,7 @@
   * the rename map table:map-table, freelist, busy table    
   * dependency: RAR, RAW, WAW, WAR   
 - issue   
-  * slot resource    
+  * slot resource    -> exu num
   * find vacated slot    
   * update uop status    
   * issue uop    
