@@ -16,7 +16,20 @@
 
 ## 性能如何评估？   
 
+- TMA
+- SpecInt
+- Coremark
+
 ## 如何迭代改进？    
+
+## pipeline
+
+每个stage需要考虑
+   - exception
+   - interrupt
+   - branch/branch specutive/ flush / recover
+   - hazrd
+   - flush
 
 
 - cache   
