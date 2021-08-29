@@ -7,7 +7,7 @@
   - output   
   - function  
 ### FSM    
-### 关键数据结构    
+### 关键数据结构 - resources    
   - register   
   - fifo structure   
   - valid-ready  
