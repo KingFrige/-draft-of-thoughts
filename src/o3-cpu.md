@@ -12,13 +12,24 @@
   * multi issue   
   * wakeup机制   
 
+
+## resource and match
+  - rob
+  - ldQ/stQ
+  - fetch-buffer
+  - physical register
+  - issueQ
+  - branchTags
+
+
 ## 参数如何确定？   
 
 ## 性能如何评估？   
 
 - TMA
-- SpecInt
-- Coremark
+- benchmark
+  * SpecInt
+  * Coremark
 
 ## 如何迭代改进？    
 
@@ -30,7 +41,6 @@
    - branch/branch specutive/ flush / recover
    - hazrd
    - flush
-
 
 - cache   
   * icache   
