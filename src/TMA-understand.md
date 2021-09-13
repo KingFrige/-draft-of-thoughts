@@ -26,6 +26,7 @@ top-down
 
 - 资源reource不足
    * fetch-buffer
+   * fetch-target-queue
    * branchMask
    * issue-slots -> RS
    * rob - entry
@@ -34,6 +35,8 @@ top-down
    * physical registers
    * ALU num
    * decode width
+   * fetch width
+   * bpd resource
 
 - data dependency
    * read after write dependency
