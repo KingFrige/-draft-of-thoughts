@@ -53,3 +53,13 @@ top-down summarize
 
 - improve design
 
+
+the strategies for data hazards
+--------------------------------
+
+- interlock
+- bypass
+- speculate
+  * branch prediction
+
+
