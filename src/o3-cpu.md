@@ -28,6 +28,13 @@
  - sequential superscalar cpu
  - outer-of-order superscalar cpu
 
+## resources 角度理解o3处理器
+
+ - pipeline: ifetch -> fetchbuffer -> resources allocation(decode -> rename -> dispatch -> [rob / issueQ / ldQ / stQ]) 
+                    -> exu -> writeback -> resources release(commit)
+ - buffer state: empty & full
+ - pipeline split: buffer <-> buffer
+
 
 ## 参数如何确定？   
 

@@ -47,3 +47,10 @@ top-down
    * machine clears
 
 
+TMA 节点划分的依据与公式的原理
+--------------------------------
+
+- pipeline
+- buffer
+
+
