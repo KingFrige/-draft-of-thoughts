@@ -13,13 +13,20 @@
   * wakeup机制   
 
 
-## resource and match
+## resources and match
   - rob
   - ldQ/stQ
   - fetch-buffer
   - physical register
   - issueQ
   - branchTags
+  - pipelines
+
+## resources对比
+ - embedded cpu
+ - sequential scalar cpu
+ - sequential superscalar cpu
+ - outer-of-order superscalar cpu
 
 
 ## 参数如何确定？   
