@@ -21,6 +21,14 @@ status
 - backEnd empty
 
 
+attribute
+--------------
+
+- latency
+- bandwidth
+- occupandy
+
+
 issn in pipeline
 --------------------
 
