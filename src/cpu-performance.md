@@ -74,8 +74,18 @@ flow
 - optimize performance
 
 
+performance data analysis & show
+----------------------------------
 
-
-
+- benchmarks info scripts 
+  * dram histogrm 
+  * pie chart
+- spec2006 build 
+  * tma counter read 
+  * info counter read 
+  * cnt remap scripts
+- perfmance regression
+  * flow scripts 
+  * data show & chart show
 
 
