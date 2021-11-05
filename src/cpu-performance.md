@@ -63,3 +63,19 @@ the strategies for data hazards
   * branch prediction
 
 
+flow
+-------
+
+- understand benchmark
+- get insn info, draw histogrm & pie chart
+- predict performance boltleneck from insn info
+- get tma info, draw chart
+- analysis performance
+- optimize performance
+
+
+
+
+
+
+
