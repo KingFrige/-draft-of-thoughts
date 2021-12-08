@@ -5,7 +5,7 @@ README
 添加一些初级的、简单的思考
 
 
-[chisel-design](src/chisel-design.md)    
+[chisel-design](src/chisel设计方法考.md)    
 
 [cpu-modeling](src/cpu-modeling.md)      
 
@@ -22,3 +22,4 @@ README
 [write-a-tool](src/write-a-tool.md)   
 
 [o3-cpu](src/o3-cpu.md)
+
