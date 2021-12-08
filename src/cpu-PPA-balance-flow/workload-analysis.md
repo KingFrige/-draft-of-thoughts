@@ -8,4 +8,6 @@
 
 ### performance bound
 
-
+- qsort 
+- rsort 
+- multiply
