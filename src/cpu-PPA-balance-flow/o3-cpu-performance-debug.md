@@ -14,14 +14,14 @@
 
 ## resource status  
  - fetch buffer  
- - rob entry  
+ - decode width  
  - branch mask  
  - issue slots  
+ - exu  
+ - physical registers  
+ - rob entry  
  - load buffer  
  - store buffer  
- - exu  
- - decode width  
- - physical registers  
 
 ## memory  
  - miss  
