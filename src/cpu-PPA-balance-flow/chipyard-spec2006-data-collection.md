@@ -49,7 +49,7 @@ $ ./gen_binaries.sh --compile --copy
 
 ## `riscv-perf-hpmcounters` read hpm count   
 
-[riscv-perf-hpmcounters](https://github.com/KingFrige/riscv-perf-hpmcounters] fork 自(riscv-hpmcounters](https://github.com/ccelio/riscv-hpmcounters)
+[riscv-perf-hpmcounters](https://github.com/KingFrige/riscv-perf-hpmcounters) fork 自 [riscv-hpmcounters](https://github.com/ccelio/riscv-hpmcounters)
 
 `riscv-perf-hpmcounters` 能在riscv平台上将执行 `workload`，并在执行结束打印 hpm counter的数据
 
