@@ -7,7 +7,9 @@ git clone -b TMAM git@github.com:KingFrige/chipyard.git
 cd chipyard
 ./scripts/init-submodules-no-riscv-tools.sh
 
-git submodule update
+git status
+
+git submodule update <repo-path>
 ```
 
 - [initial-repository-setup](https://chipyard.readthedocs.io/en/latest/Chipyard-Basics/Initial-Repo-Setup.html#initial-repository-setup)
