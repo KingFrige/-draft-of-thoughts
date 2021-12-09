@@ -4,8 +4,7 @@ use dhrystone as demo
 
 ## code understand
 
-[benchmarks/dhrystone](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/dhrystone/dhrystone.h#L225)
-
+- [benchmarks/dhrystone](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/dhrystone/dhrystone.h#L225)
 - numbers of function 
 - data structure
 - function call, eg.[GNU cflow](http://www.gnu.org/software/cflow/) / [GNU gprof](https://sourceware.org/binutils/docs/gprof/)
@@ -14,6 +13,7 @@ use dhrystone as demo
 ## compile analysis
 
 - Compiler optimization options & compare
+- Vectorization
 - [llvm-mca - LLVM Machine Code Analyzer](https://llvm.org/docs/CommandGuide/llvm-mca.html)
 - [LLVM-MCA: docs](http://home.ustc.edu.cn/~shaojiemike/posts/llvm-mca)
 
