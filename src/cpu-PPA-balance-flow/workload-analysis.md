@@ -6,6 +6,11 @@ use dhrystone as demo
 
 [benchmarks/dhrystone](https://github.com/riscv-software-src/riscv-tests/blob/master/benchmarks/dhrystone/dhrystone.h#L225)
 
+- numbers of function 
+- data structure
+- function call, eg.[GNU cflow](http://www.gnu.org/software/cflow/) / [GNU gprof](https://sourceware.org/binutils/docs/gprof/)
+- code Locality
+
 ## compile analysis
 
 [llvm-mca - LLVM Machine Code Analyzer](https://llvm.org/docs/CommandGuide/llvm-mca.html)
@@ -36,7 +41,7 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
 
 - gem5  
 
-[Understanding gem5 statistics and output](http://learning.gem5.org/book/part1/gem5_stats.html)
+> [Understanding gem5 statistics and output](http://learning.gem5.org/book/part1/gem5_stats.html)
 
 - vcs/verilator sim
 
