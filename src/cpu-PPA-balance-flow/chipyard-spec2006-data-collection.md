@@ -1,5 +1,17 @@
 # chipyard spec2006 data collection  
 
+## chipyard
+
+```
+git clone -b TMAM git@github.com:KingFrige/chipyard.git
+cd chipyard
+./scripts/init-submodules-no-riscv-tools.sh
+
+git submodule update
+```
+
+- [initial-repository-setup](https://chipyard.readthedocs.io/en/latest/Chipyard-Basics/Initial-Repo-Setup.html#initial-repository-setup)
+
 ## build spec2006   
 
 1. 提前安装好spec2006  
