@@ -1,14 +1,20 @@
 # workload analysis
 
+use dhrystone as demo
+
+## code understand
+
 ## compile analysis
 
 ## trace log analysis
 
-### instruction info
+### spike trace log
 
-### performance bound
+- [instruction info](https://github.com/KingFrige/spike-log-analyze/tree/main)
 
-- dhrystone
-- qsort 
-- rsort 
-- multiply
+![](picture/insn-histgram.png)
+
+
+- performance bound
+
+
