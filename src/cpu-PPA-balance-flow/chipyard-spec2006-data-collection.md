@@ -25,24 +25,41 @@ $ ./gen_binaries.sh --compile --copy
 
 ## fpga-shell build bitstream  
 
-1. sdboot initial hpm count   
+1. [sdboot initial hpm count](https://github.com/KingFrige/chipyard/tree/TMAM/fpga/src/main/resources/vcu118/sdboot)   
 
 - 使能 `user-mode` 读hpm count权限
 
+```c
+write_csr(scounteren, -1);
+write_csr(mcounteren, -1);
+```
+
 - 配置对应的 hpm count
+
+![](picture/sdboot.png)
+
 
 2. 使用vivado生成bitstream文件
 
 
-## FireMarshal build image   
+## [FireMarshal](https://github.com/KingFrige/FireMarshal) build image
 
-1. 配置 `buildroot` 配置，使其包含 `bash`  
+1. 配置 [buildroot-config](https://github.com/KingFrige/FireMarshal/blob/perf/boards/prototype/base-workloads/br-base/buildroot-config)，使其包含 `bash`  
+
+```
+BR2_SYSTEM_BIN_SH_BASH=y
+BR2_SYSTEM_BIN_SH="bash"
+BR2_PACKAGE_BUSYBOX_SHOW_OTHERS=y
+BR2_PACKAGE_BASH=y
+BR2_PACKAGE_READLINE=y
+BR2_INIT_BUSYBOX=y
+```
 
 2. 使用 [run-spec2006-workload](https://github.com/KingFrige/run-spec2006-workload) 生成对应的 `image` 文件
 
 - 注意确认初始化的脚本 [run-spec2006.sh](https://github.com/KingFrige/run-spec2006-workload/blob/main/overlay/run-spec2006.sh)
 
-3. 将 image 文件写到 `SD card`
+3. 将 image 文件写到 `SD card`  
 
 - 按照chipyard文档将 `SD card` 分成两个分区，参考 [setting-up-the-sdcard](https://chipyard.readthedocs.io/en/latest/Prototyping/VCU118.html#setting-up-the-sdcard)
 
