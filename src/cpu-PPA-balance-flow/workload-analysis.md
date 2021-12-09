@@ -8,6 +8,7 @@
 
 ### performance bound
 
+- dhrystone
 - qsort 
 - rsort 
 - multiply

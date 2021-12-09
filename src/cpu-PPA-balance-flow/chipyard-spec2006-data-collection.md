@@ -102,12 +102,18 @@ $ ./riscv-hpmcounters-read "ls -l"
 
 使用vivado将预先build好的bitstream文件下载到FPGA上，FPGA将自动从SD card boot，并自动开始执行放在卡上的 `workloads`
 
+![](picture/vivado.png)
+
 
 ## analysis data  
+
 
 执行结束后，将生成的 `*.tma` / `.info` 文件从 SD card上拷贝到 host上处理
 使用工具 [riscv-perf-tools](https://github.com/KingFrige/riscv-perf-tools) 进行处理
 
 - TMAM 处理 
 - info 处理
+
+![spec2006 data collection](picture/spec2006-run.png)
+
 
