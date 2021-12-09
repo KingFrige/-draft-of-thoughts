@@ -13,9 +13,9 @@ use dhrystone as demo
 
 ## compile analysis
 
-[llvm-mca - LLVM Machine Code Analyzer](https://llvm.org/docs/CommandGuide/llvm-mca.html)
-
-[LLVM-MCA: docs](http://home.ustc.edu.cn/~shaojiemike/posts/llvm-mca)
+- Compiler optimization options & compare
+- [llvm-mca - LLVM Machine Code Analyzer](https://llvm.org/docs/CommandGuide/llvm-mca.html)
+- [LLVM-MCA: docs](http://home.ustc.edu.cn/~shaojiemike/posts/llvm-mca)
 
 
 ## trace log analysis
@@ -35,6 +35,8 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
 ```
 
 ![](picture/insn-histgram.png)
+
+### code locality analyze
 
 
 ## performance sim
