@@ -38,6 +38,10 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
 
 ### code locality analyze
 
+- ICache
+- DCache
+- L2Cache
+
 ### code branch analyze
 
 
@@ -45,7 +49,16 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
 
 - gem5  
 
-> [Understanding gem5 statistics and output](http://learning.gem5.org/book/part1/gem5_stats.html)
+  * [Understanding gem5 statistics and output](http://learning.gem5.org/book/part1/gem5_stats.html)
+  * [pipelineview](http://www.m5sim.org/Visualization)
+  * TMAM bound
+  * resource info
+  * stall info
 
 - vcs/verilator sim
+
+  * TMAM bound
+  * pipelineview
+  * resource info
+  * stall info  
 
