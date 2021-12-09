@@ -1,18 +1,25 @@
 # metric specify and microArchtecture selection  
 
+## application scenario
 
-## IPC 
+## benchmarks selection
 
-## frontend bound
+## power
 
-## bad-speculation
+## performance
 
-## backend bound
+### IPC 
+
+### frontend bound
+
+### bad-speculation
+
+### backend bound
   - core bound
   - memory bound
 
 
-## micro-archtecture balance  
+### micro-archtecture balance  
 
  - IPC  
  - freq
@@ -22,3 +29,5 @@
 
  * cpu 选型
  * cpu 微架构选择  
+
+## reference
