@@ -54,6 +54,8 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
   * TMAM bound
   * resource info
   * stall info
+  * cache locality info(miss/hit)
+  * code branch prediction info
 
 - vcs/verilator sim
 
@@ -61,4 +63,6 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
   * pipelineview
   * resource info
   * stall info  
+  * cache locality info(miss/hit)
+  * code branch prediction info
 
