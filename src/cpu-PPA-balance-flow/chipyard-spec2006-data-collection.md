@@ -54,7 +54,7 @@ write_csr(mcounteren, -1);
 2. 使用vivado生成bitstream文件
 
 
-## [FireMarshal](https://github.com/KingFrige/FireMarshal) build image
+## [FireMarshal](https://github.com/KingFrige/FireMarshal/tree/perf) build image
 
 1. 配置 [buildroot-config](https://github.com/KingFrige/FireMarshal/blob/perf/boards/prototype/base-workloads/br-base/buildroot-config)，使其包含 `bash`  
 
