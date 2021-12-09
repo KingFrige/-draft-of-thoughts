@@ -38,6 +38,8 @@ $ ./plot-insn-histgram.py --path ./demo/dhrystone.riscv.spike.log
 
 ### code locality analyze
 
+### code branch analyze
+
 
 ## performance sim
 
