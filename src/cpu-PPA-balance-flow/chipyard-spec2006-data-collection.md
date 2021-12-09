@@ -20,6 +20,8 @@ $ ./gen_binaries.sh --compile --copy
 
 4. 将需要执行的 workloads 打包到脚本中，可以进行批处理，请参考 [run-spec2006-workload](https://github.com/KingFrige/run-spec2006-workload/blob/main/misc/run-spec2006-tasks.sh)
 
+![](picture/run-spec2006-tasks.png)
+
 
 ## fpga-shell build bitstream  
 
