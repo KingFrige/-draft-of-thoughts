@@ -4,14 +4,18 @@
 
 ## o3 cpu breakdown
 
-![](picture/intel-core-uArch.png) ![](picture/TopLevelBreakdownFlowchart.png)
+![](picture/intel-core-uArch.png)![](picture/TopLevelBreakdownFlowchart.png)
 
 以ifetch buffer为分界点，可以将o3处理器分成两段
 
 第一部分没有分配 backend 资源(rob entry, physical register, issue slots, exu, load buffer, store buffer...)
+
 第二部分将被分配占有 backend 资源
+
 继续向下分解
+
 第二部分（占有 backend 资源）可以分解为 `retiring` 和 `bad specculation`
+
 第一部分（没有分配 backend 资源）可以分解为 `Backend Bound` 和 ` FrontEnd Bound`
 
 |  top Level Breakdown  | description |
