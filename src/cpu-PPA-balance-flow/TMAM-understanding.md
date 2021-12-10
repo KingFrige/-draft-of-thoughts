@@ -2,11 +2,12 @@
 
 ![](picture/abstraction-of-processor.png)
 
+
 ## o3 cpu breakdown
 
 ![](picture/intel-core-uArch.png)![](picture/TopLevelBreakdownFlowchart.png)
 
-以ifetch buffer为分界点，可以将o3处理器分成两段
+以 `ifetch buffer` 为分界点，可以将o3处理器分成两段
 
 第一部分没有分配 backend 资源(rob entry, physical register, issue slots, exu, load buffer, store buffer...)
 
@@ -25,6 +26,7 @@
 | Backend Bound         | 没有占有 backend 资源，造成后端阻塞的，即来源于后端产生的bubbles |
 | FrontEnd Bound        | 没有占有 backend 资源，也没有造成后端阻塞的， 即来源于分割点（ifetch buffer）统计到的 bubbles |
 
+
 ## o3 cpu buffer
 
 在o3处理器中，为达到解耦依赖提高并行的目的，系统中不同阶段被 `buffer` 分隔开
@@ -41,9 +43,10 @@
 | load buffer           | 维护load命令队列                                                       | 资源闲置      | 阻塞dispatch |
 | store buffer          | 维护store命令队列                                                      | 资源闲置      | 阻塞dispatch |
 
+
 ## o3 cpu pipeline stall
 
-please refrence [riscv/boom](https://github.com/riscv-boom/riscv-boom/blob/master/src/main/scala/exu/core.scala#L689)
+please reference [riscv/boom](https://github.com/riscv-boom/riscv-boom/blob/master/src/main/scala/exu/core.scala#L689))
 
 |  stall events            | description |
 | ------------------------ | ----------- |
@@ -60,11 +63,18 @@ please refrence [riscv/boom](https://github.com/riscv-boom/riscv-boom/blob/maste
 
 ## Top Level breakdown event
 
+- intel perfMon reference [TMA_Metrics](https://download.01.org/perfmon/TMA_Metrics.xlsx) 
+- events description reference [perfmon-events](https://perfmon-events.intel.com/)
+- [code reference](https://github.com/KingFrige/riscv-boom/blob/perfMon/src/main/scala/exu/core.scala#L510)
+
 ### frontend-bound
+
 
 ### bad-speculation
 
+
 ### retired  
+
 
 ### backend bound
   - memory-bound
@@ -72,13 +82,12 @@ please refrence [riscv/boom](https://github.com/riscv-boom/riscv-boom/blob/maste
 
 ![](picture/TMA-hierarchy.png)
 
+
 ## reference
 
 [A Top-Down method for performance analysis and counters architecture](https://www.researchgate.net/publication/269302126_A_Top-Down_method_for_performance_analysis_and_counters_architecture)
 
 [perfmon-events](https://perfmon-events.intel.com/)
-
-[TMA_Metrics.](https://download.01.org/perfmon/TMA_Metrics.xlsx)
 
 [Top-down Microarchitecture Analysis](http://www.cs.technion.ac.il/~erangi/TMA_using_Linux_perf__Ahmad_Yasin.pdf)
 
@@ -87,3 +96,6 @@ please refrence [riscv/boom](https://github.com/riscv-boom/riscv-boom/blob/maste
 [Top-Down performance analysis methodology](https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology)
 
 [riscv-boom perfMon branch](https://github.com/KingFrige/riscv-boom/blob/perfMon/src/main/scala/exu/core.scala#L476)
+
+[riscv/boom](https://github.com/riscv-boom/riscv-boom)
+
