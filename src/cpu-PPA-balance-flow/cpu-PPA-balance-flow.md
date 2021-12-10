@@ -1,5 +1,8 @@
 # cpu PPA balance flow
 
+![](picture/MGM.png)
+
+
 ## [workload-analysis](workload-analysis.md)
 
 ## [metric-specify-and-microArchtecture-selection](metric-specify-and-microArchtecture-selection.md)
