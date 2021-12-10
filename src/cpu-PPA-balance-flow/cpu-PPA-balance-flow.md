@@ -2,6 +2,7 @@
 
 ![](picture/MGM.png)
 
+参考MGM，同时关注workload的分析及VLSI flow的PPA评估，自顶向下，设计DSA
 
 ## [workload-analysis](workload-analysis.md)
 
