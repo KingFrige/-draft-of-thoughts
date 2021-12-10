@@ -1,16 +1,16 @@
 # cpu PPA balance flow
 
-[workload-analysis](workload-analysis.md)
+## [workload-analysis](workload-analysis.md)
 
-[metric-specify-and-microArchtecture-selection](metric-specify-and-microArchtecture-selection.md)
+## [metric-specify-and-microArchtecture-selection](metric-specify-and-microArchtecture-selection.md)
 
-[TMAM-understanding](TMAM-understanding.md)
+## [TMAM-understanding](TMAM-understanding.md)
 
-[o3-cpu-micro-Archtecture-analysis.](o3-cpu-micro-Archtecture-analysis.md)
+## [o3-cpu-micro-Archtecture-analysis.](o3-cpu-micro-Archtecture-analysis.md)
 
-[chipyard-vlsi-flow](chipyard-vlsi-flow.md)
+## [chipyard-spec2006-data-collection](chipyard-spec2006-data-collection.md)
 
-[chipyard-spec2006-data-collection](chipyard-spec2006-data-collection.md)
+## [chipyard-vlsi-flow](chipyard-vlsi-flow.md)
 
 
 ## reference
