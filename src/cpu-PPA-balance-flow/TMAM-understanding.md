@@ -1,5 +1,7 @@
 # TMAM understanding
 
+![](picture/abstraction-of-processor.png)
+
 ## frontend-bound
 
 ## bad-speculation
@@ -10,6 +12,7 @@
   - memory-bound
   - core-bound
 
+![](picture/TMA-hierarchy.png)
 
 ## reference
 
