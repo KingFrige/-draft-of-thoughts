@@ -4,6 +4,8 @@
 
 ## o3 cpu breakdown
 
+![](picture/intel-core-uArch.png) ![](picture/TopLevelBreakdownFlowchart.png)
+
 以ifetch buffer为分界点，可以将o3处理器分成两段
 
 第一部分没有分配 backend 资源(rob entry, physical register, issue slots, exu, load buffer, store buffer...)
