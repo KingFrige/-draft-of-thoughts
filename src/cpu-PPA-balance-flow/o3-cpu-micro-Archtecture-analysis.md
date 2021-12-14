@@ -4,6 +4,7 @@
 ## performance
 
 - 哪些地方存在性能瓶颈？
+- pipeline阻塞：structural hazard, data hazard, control hazard
 - 性能瓶颈在vcs/verilator仿真的波形的什么位置？
 - 如何使用计数器统计性能瓶颈点？
 - TMAM的计数器在流水线的位置？
@@ -28,7 +29,7 @@ cause：
 
 cause：
 
-- issue slots data harzd
+- issue slots data hazard
 - memory bound
 - instruction type & numbers of exu & type of exu don't match
 - issue slots empty
@@ -40,7 +41,7 @@ cause：
 
 cause：
 
-- issue slots data harzd
+- issue slots data hazard
 - instruction type & numbers of exu & type of exu don't match
 - issue slots empty
 
